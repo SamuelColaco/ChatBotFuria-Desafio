@@ -1,0 +1,41 @@
+
+.container{
+    display: flex;
+}
+
+.container > input{
+    background-color: var(--color-message-bg);
+
+    border: 2px solid var( --color-bot-bubble);
+
+    margin: 1rem;
+
+
+    border-radius: 8px;
+
+    padding: 1rem 2rem;
+
+    color: var(--color-text-light);
+}
+
+.container > input::placeholder{
+    color: rgb(84, 82, 82);
+
+    font-size: 1rem;
+}
+
+.container > input:hover{
+
+    border: 2px solid var(--color-text-light);
+
+    transition: 0.2s;
+}
+
+@media (max-width: 455px){
+
+    .container > input{
+        width: 100%;
+
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+
+.container{
+    display: flex; 
+    align-items: center; 
+
+    padding: 1rem;
+
+    max-width: 100%;
+}
+
+.container > img{
+    height: 3.75rem;
+
+    border-radius: 50%;
+
+    flex-shrink: 0;
+}
+
+.response{
+    background-color: var( --color-bot-bubble);
+    padding: 1rem;
+
+    max-width: 70%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+    white-space: pre-wrap;
+    display: inline-block;
+
+    border-radius: 8px 8px 8px 0px;
+    
+    margin-left: 0.5rem;
+}

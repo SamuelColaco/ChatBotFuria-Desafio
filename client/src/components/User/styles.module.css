@@ -1,0 +1,25 @@
+
+.container{
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.container > div{
+
+    background-color: var( --color-bot-bubble);
+    padding: 1rem;
+
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+    white-space: pre-wrap;
+    display: block;
+
+    border-radius: 8px 8px 0px 8px;
+    
+    margin: 0.3
+
+}
