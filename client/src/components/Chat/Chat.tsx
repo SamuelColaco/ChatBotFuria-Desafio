@@ -11,7 +11,7 @@ import { useWebSocket } from "../../hooks/useWebSocket"
 export function Chat(){
 
     const [inputValue, setInputValue] = useState('')
-    const { messages, sendMessage } = useWebSocket('ws://localhost:3333')
+    const { messages, sendMessage } = useWebSocket('wss://chatbotfuria-desafio.onrender.com')
 
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault()
