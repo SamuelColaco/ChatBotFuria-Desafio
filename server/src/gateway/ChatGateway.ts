@@ -14,7 +14,7 @@ export class ChatGateway{
             const questions = data.toString()
             
             
-            await this.createMessageUseCase.execute({ questions, question: questions})
+            await this.createMessageUseCase.execute({ response: questions, question: questions})
             
             const response = this.createClassifierQuestion.getQuestion(questions)
             ws.send(`${response}`)

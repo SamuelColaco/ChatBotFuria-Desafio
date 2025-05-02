@@ -1,5 +1,5 @@
 
 export interface CreateMessageUseCaseDTO{
-    questions: string
+    response: string
     question: string
 }

@@ -10,9 +10,9 @@ export class CreateMessages{
         private createClassifierQustion: IGetQuestion
     ){}
 
-    async execute({ questions, question }: CreateMessageUseCaseDTO){
+    async execute({ response, question }: CreateMessageUseCaseDTO){
 
-        const message = this.createClassifierQustion.getQuestion(questions)
+        const message = this.createClassifierQustion.getQuestion(response)
 
         const messages = new Messages({ message, question})
 
