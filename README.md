@@ -37,7 +37,6 @@
 │       │   └── providers/
 │       │       ├── CreateBcryptHash.ts
 │       │       └── CreateClassifierQuestion.ts
-│       ├── middleware/
 │       ├── useCase/
 │       ├── utils/
 │       ├── app.ts
