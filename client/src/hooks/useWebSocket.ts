@@ -13,6 +13,7 @@ export const useWebSocket = (url: string) => {
     const [isConnected, setIsConnected] = useState(false)
 
     const ws = useRef<WebSocket | null>(null)
+    
 
     useEffect(() => {
         ws.current = new WebSocket(url)
