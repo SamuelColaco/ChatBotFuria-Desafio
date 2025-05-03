@@ -1,6 +1,6 @@
 # 🤖 ChatBotFuria
 
-**ChatBotFuria** é um chatbot desenvolvido para o desafio técnico na vaga de assistente de tecnologia da Furia. Desenvolvido com **Node.js**, **WebSocket**, **React (Vite)** e princípios da **Clean Architecture** e **SOLID**. A aplicação oferece comunicação em tempo real entre o usuário e um assistente virtual com respostas pre-feitas utilizando a biblioteca **Natural**.
+**ChatBotFuria** é um chatbot desenvolvido para o desafio técnico na vaga de assistente de tecnologia da Furia. Desenvolvido com **Node.js**, **WebSocket**, **React (Vite)** e princípios da **Clean Architecture** e **SOLID**. A aplicação oferece comunicação em tempo real entre o usuário e um assistente virtual com respostas pre-feitas utilizando um banco de respostas feito junto a biblioteca **Natural**.
 
 ---
 
